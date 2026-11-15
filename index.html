@@ -47,7 +47,13 @@ nav a:hover{color:var(--palm)}
 .hero{padding-top:44px}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:end}
 .hero p.lead{margin-top:18px}
-.hero-side-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:35% 50%;border-radius:4px;margin-bottom:22px}
+.hero-banner{position:relative;min-height:600px;display:flex;align-items:center;border-radius:6px;overflow:hidden;background:#3a6f9a url(img/hero-palms.jpg) 60% 50%/cover no-repeat}
+.hero-panel{margin:36px;max-width:600px;padding:34px 34px 36px;border-radius:6px;background:rgba(255,253,248,.86);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:0 10px 40px rgba(0,0,0,.18)}
+.hero-panel h1{font-size:clamp(2.1rem,4.6vw,3.5rem)}
+.hero-panel .lead{color:#3d4046}
+.hero-panel .btn.ghost{background:rgba(255,255,255,.7)}
+.facts.facts-row{grid-template-columns:repeat(4,1fr);margin-top:26px}
+.facts.facts-row div{padding-right:16px}
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
 .hero-photo{margin-top:34px;position:relative}
 .hero-photo img{width:100%;aspect-ratio:1800/900;object-fit:cover;border-radius:4px}
@@ -160,7 +166,9 @@ footer p{color:var(--soft);font-size:.95rem}
 .social a:hover,.social a:focus-visible{background:var(--ink);color:#fff}
 @media (max-width:860px){
   .hero-grid,.test-grid,.split,.quote-grid{grid-template-columns:1fr}
-  .hero-side-img{display:none}
+  .hero-banner{min-height:0;align-items:flex-end;background-position:35% 0}
+  .hero-panel{margin:150px 12px 12px;padding:22px 20px 24px}
+  .facts.facts-row{grid-template-columns:repeat(2,1fr)}
   .products{grid-template-columns:1fr}
   .product,.product + .product{padding:22px 0;border-left:0}
   .navlinks{display:none}
@@ -187,21 +195,18 @@ footer p{color:var(--soft);font-size:.95rem}
 <main id="top">
 <div id="view-home">
 <div class="hero wrap">
-  <div class="hero-grid">
-    <div>
+  <div class="hero-banner">
+    <div class="hero-panel">
       <h1 data-i="hero.h1">Start your coconut business with coconuts from Mozambique.</h1>
       <p class="lead" data-i="hero.lead">Coconut oil, coconut butter, desiccated coconut, coconut charcoal: they all start with a good coconut. We supply it, mature and brown, from Inhambane, to businesses anywhere in the world.</p>
       <div class="cta"><a class="btn" href="#quote" data-i="hero.cta1">Request a quote</a><a class="btn ghost" href="#opportunity" data-i="hero.cta2">Business opportunity</a></div>
     </div>
-    <div class="hero-side">
-    <img class="hero-side-img" src="img/hero-palms.jpg" alt="Coconut palms along the road in Inhambane, Mozambique" width="1400" height="798">
-    <div class="facts">
-      <div><b>60+</b><span data-i="f1">days of maturity, minimum</span></div>
-      <div><b>26 t</b><span data-i="f2">in one 40 ft container</span></div>
-      <div><b>25 · 50</b><span data-i="f3">coconuts per bag, or your own spec</span></div>
-      <div><b>24 h</b><span data-i="f4">to send you a quotation</span></div>
-    </div>
-    </div>
+  </div>
+  <div class="facts facts-row">
+    <div><b>60+</b><span data-i="f1">days of maturity, minimum</span></div>
+    <div><b>26 t</b><span data-i="f2">in one 40 ft container</span></div>
+    <div><b>25 · 50</b><span data-i="f3">coconuts per bag, or your own spec</span></div>
+    <div><b>24 h</b><span data-i="f4">to send you a quotation</span></div>
   </div>
   <figure class="hero-photo" style="margin-left:0;margin-right:0;margin-bottom:0">
     <div class="slider" id="slider"><img src="img/n-palm.jpg" alt="A man climbing a coconut palm" class="slide on" style="object-position:50% 60%"><img src="img/n-mature.jpg" alt="A mature coconut split in two, showing thick white kernel" class="slide" style="object-position:50% 45%"><img src="img/n-open.jpg" alt="A germinating coconut, opened, held in a hand" class="slide" style="object-position:50% 50%"><img src="img/n-husk.jpg" alt="Coconut husks held in a hand" class="slide" style="object-position:50% 45%"><img src="img/n-leaves.jpg" alt="A pile of dried coconut palm leaves" class="slide" style="object-position:50% 40%"><img src="img/n-worker.jpg" alt="A worker carrying a crate of coconuts through a doorway" class="slide" style="object-position:50% 45%"><img src="img/n-crates.jpg" alt="Crates of coconuts on a steel table beside a scale" class="slide" style="object-position:50% 55%"><img src="img/n-bags.jpg" alt="Bags of coconuts stacked on pallets" class="slide" style="object-position:50% 50%"><img src="img/n-loading.jpg" alt="Workers loading bags onto a truck" class="slide" style="object-position:50% 50%"><img src="img/n-container.jpg" alt="Bags stacked inside a truck" class="slide" style="object-position:50% 45%"><img src="img/n-truck.jpg" alt="A box truck parked under trees at night" class="slide" style="object-position:40% 55%">
