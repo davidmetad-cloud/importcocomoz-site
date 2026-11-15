@@ -47,6 +47,7 @@ nav a:hover{color:var(--palm)}
 .hero{padding-top:44px}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:end}
 .hero p.lead{margin-top:18px}
+.hero-side-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:35% 50%;border-radius:4px;margin-bottom:22px}
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
 .hero-photo{margin-top:34px;position:relative}
 .hero-photo img{width:100%;aspect-ratio:1800/900;object-fit:cover;border-radius:4px}
@@ -155,6 +156,7 @@ footer img{width:230px;margin:0 auto 14px}
 footer p{color:var(--soft);font-size:.95rem}
 @media (max-width:860px){
   .hero-grid,.test-grid,.split,.quote-grid{grid-template-columns:1fr}
+  .hero-side-img{display:none}
   .products{grid-template-columns:1fr}
   .product,.product + .product{padding:22px 0;border-left:0}
   .navlinks{display:none}
@@ -187,11 +189,14 @@ footer p{color:var(--soft);font-size:.95rem}
       <p class="lead" data-i="hero.lead">Coconut oil, coconut butter, desiccated coconut, coconut charcoal: they all start with a good coconut. We supply it, mature and brown, from Inhambane, to businesses anywhere in the world.</p>
       <div class="cta"><a class="btn" href="#quote" data-i="hero.cta1">Request a quote</a><a class="btn ghost" href="#opportunity" data-i="hero.cta2">Business opportunity</a></div>
     </div>
+    <div class="hero-side">
+    <img class="hero-side-img" src="img/hero-palms.jpg" alt="Coconut palms along the road in Inhambane, Mozambique" width="1400" height="798">
     <div class="facts">
       <div><b>60+</b><span data-i="f1">days of maturity, minimum</span></div>
       <div><b>26 t</b><span data-i="f2">in one 40 ft container</span></div>
       <div><b>25 · 50</b><span data-i="f3">coconuts per bag, or your own spec</span></div>
       <div><b>24 h</b><span data-i="f4">to send you a quotation</span></div>
+    </div>
     </div>
   </div>
   <figure class="hero-photo" style="margin-left:0;margin-right:0;margin-bottom:0">
