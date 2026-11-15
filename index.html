@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Import Coconut From Mozambique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;800&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Layout idea: white paper like the logo; photographs carry the colour; one gold rule system; the sound test is the centrepiece. */
+  --paper:#ffffff; --shell:#f4f1ea; --ink:#2b2d31; --soft:#5d6067; --gold:#c39a1f; --palm:#1f5a3c; --husk:#6b4423; --line:#e3ded2;
+  --display:"Alegreya","Georgia",serif; --caps:"Alegreya SC","Alegreya","Georgia",serif; --body:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.55}
+img,video{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.08}
+h1{font-size:clamp(2.5rem,7vw,4.6rem);font-weight:800;letter-spacing:-.01em}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);font-weight:700}
+h3{font-size:1.45rem;font-weight:700}
+.eyebrow{font-family:var(--caps);letter-spacing:.22em;color:var(--gold);font-weight:700;font-size:.95rem;text-transform:lowercase;margin:0 0 12px}
+p{margin:0}
+.lead{font-size:1.2rem;color:var(--soft);max-width:58ch}
+/* header */
+header{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:16px;justify-content:space-between;padding:10px 20px;max-width:1120px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{width:46px;height:auto}
+.brand span{font-family:var(--caps);font-weight:700;letter-spacing:.08em;font-size:1.02rem;line-height:1.05}
+.brand small{display:block;font-size:.72rem;letter-spacing:.2em;color:var(--gold)}
+nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+nav a{text-decoration:none;font-weight:500;font-size:1rem}
+nav a:hover{color:var(--palm)}
+.navlinks{display:flex;gap:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--palm);color:#fff;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px;border:2px solid var(--palm);font-family:var(--body);font-size:1.02rem;cursor:pointer}
+.btn:hover{background:#17472f}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:#fff}
+.btn.sm{padding:8px 16px;font-size:.95rem}
+/* hero */
+.hero{padding-top:44px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:end}
+.hero p.lead{margin-top:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.hero-photo{margin-top:34px;position:relative}
+.hero-photo img{width:100%;aspect-ratio:1800/900;object-fit:cover;border-radius:4px}
+.cap{font-size:.92rem;color:var(--soft);margin-top:8px}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:2px solid var(--ink)}
+.facts div{padding:14px 0;border-bottom:1px solid var(--line)}
+.facts div:nth-child(odd){padding-right:16px}
+.facts b{display:block;font-family:var(--display);font-size:1.7rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.facts span{color:var(--soft);font-size:.98rem}
+section{padding:72px 0}
+.shell{background:var(--shell)}
+/* sound test */
+.test-grid{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:44px;align-items:center}
+.test-grid video{width:100%;border-radius:6px;background:#0d0c0b;aspect-ratio:4/5}
+.verdicts{display:grid;gap:14px;margin-top:26px}
+.verdict{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;padding:16px 18px;background:var(--paper);border-left:5px solid var(--palm)}
+.verdict.no{border-left-color:#a8322a}
+.pill{font-family:var(--body);font-weight:700;font-size:.85rem;letter-spacing:.08em;color:#fff;background:var(--palm);padding:5px 12px;border-radius:999px;white-space:nowrap}
+.verdict.no .pill{background:#a8322a}
+/* products */
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:36px;border-top:2px solid var(--ink)}
+.product{padding:26px 26px 26px 0;border-bottom:1px solid var(--line)}
+.product + .product{padding-left:26px;border-left:1px solid var(--line)}
+.product .no{font-family:var(--caps);color:var(--gold);letter-spacing:.2em;font-weight:700;font-size:.9rem}
+.product h3{margin:6px 0 10px}
+.product p{color:var(--soft)}
+dl{margin:16px 0 0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.98rem}
+dt{color:var(--soft)} dd{margin:0;font-weight:500}
+/* process */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.split img{border-radius:4px;width:100%}
+ol.steps{list-style:none;margin:28px 0 0;padding:0;counter-reset:s;display:grid;gap:18px}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:14px}
+ol.steps li::before{content:counter(s);font-family:var(--display);font-weight:800;font-size:1.5rem;color:var(--gold);border-top:2px solid var(--gold);padding-top:2px;line-height:1.2}
+ol.steps b{display:block;font-size:1.1rem}
+ol.steps span{color:var(--soft)}
+.tall{aspect-ratio:4/5;object-fit:cover}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.gallery figure{margin:0;background:var(--paper)}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.gallery figcaption{padding:10px 14px 12px;font-weight:500;border-top:2px solid var(--gold)}
+@media (max-width:860px){.gallery{grid-template-columns:1fr 1fr;gap:12px}}
+@media (max-width:460px){.gallery{grid-template-columns:1fr}}
+.lang{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden}
+.lang button{font:inherit;font-weight:700;font-size:.9rem;padding:6px 12px;border:0;background:transparent;color:var(--ink);cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.ideas{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+.idea{background:var(--paper);padding:22px;border-top:3px solid var(--gold);display:flex;flex-direction:column;gap:8px}
+.idea .no{font-family:var(--caps);color:var(--gold);letter-spacing:.2em;font-weight:700;font-size:.9rem}
+.idea p{color:var(--soft)} .idea .need{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:.98rem;color:var(--ink)}
+.garage{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:32px}
+.garage h3{padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:6px}
+.check,.num{margin:0;padding:0;list-style:none;counter-reset:n}
+.check li,.num li{padding:11px 0 11px 40px;border-bottom:1px solid var(--line);position:relative}
+.check li::before{content:"";position:absolute;left:6px;top:17px;width:14px;height:8px;border-left:3px solid var(--palm);border-bottom:3px solid var(--palm);transform:rotate(-45deg)}
+.num li{counter-increment:n}.num li::before{content:counter(n);position:absolute;left:4px;top:8px;font-family:var(--display);font-weight:800;font-size:1.3rem;color:var(--gold)}
+.yield{margin-top:26px;padding:18px 20px;background:var(--shell);border-left:5px solid var(--gold);display:grid;gap:6px;font-size:1.1rem}
+.whys{display:grid;grid-template-columns:repeat(3,1fr);gap:0 32px;margin-top:28px;border-top:2px solid var(--ink)}
+.why{padding:20px 0;border-bottom:1px solid var(--line)} .why b{display:block;font-family:var(--display);font-size:1.3rem;margin-bottom:4px} .why span{color:var(--soft)}
+@media (max-width:860px){.ideas{grid-template-columns:1fr 1fr}.garage{grid-template-columns:1fr;gap:28px}.whys{grid-template-columns:1fr}}
+@media (max-width:460px){.ideas{grid-template-columns:1fr}}
+.navlinks .hl{color:var(--palm);font-weight:700;border-bottom:2px solid var(--gold)}
+.oppbar{display:none}
+.thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
+.thumb{text-decoration:none;background:var(--paper);font-family:var(--display);font-weight:700;font-size:1.15rem}
+.thumb img{width:100%;aspect-ratio:3/2;object-fit:cover}.thumb span{display:block;padding:10px 12px 12px;border-top:2px solid var(--gold)}
+.cats{display:grid;gap:28px}
+.cat{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:32px;align-items:center;background:var(--paper)}
+.cat img{width:100%;height:100%;min-height:260px;aspect-ratio:3/2;object-fit:cover}
+.cat>div{padding:26px 28px 26px 0}.cat:nth-child(even) img{order:2}.cat:nth-child(even)>div{padding:26px 0 26px 28px}
+.cat .no{font-family:var(--caps);color:var(--gold);letter-spacing:.2em;font-weight:700}
+.cat h3{font-size:1.9rem;margin:4px 0 8px}.cat dl{grid-template-columns:1fr;gap:2px;margin-top:16px}
+.cat dt{font-family:var(--caps);letter-spacing:.14em;color:var(--gold);font-weight:700;font-size:.9rem;margin-top:10px}
+@media (max-width:860px){.thumbs{grid-template-columns:1fr 1fr}.cat{grid-template-columns:1fr;gap:0}.cat img{order:0!important;min-height:0}.cat>div,.cat:nth-child(even)>div{padding:20px}
+ .oppbar{display:block;background:var(--palm);color:#fff;text-align:center;padding:9px 16px;font-weight:700;text-decoration:none}}
+.slider{position:relative;aspect-ratio:2/1;overflow:hidden;border-radius:4px;background:#1c1c1c}
+.slider .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1s ease;aspect-ratio:auto;border-radius:0}
+.slider .slide.on{opacity:1}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.85);color:var(--ink);font-size:1.6rem;line-height:1;cursor:pointer}
+.arrow.prev{left:12px}.arrow.next{right:12px}
+.dots{position:absolute;left:0;right:0;bottom:12px;display:flex;gap:7px;flex-wrap:wrap;padding:0 56px;justify-content:center}
+.dot{width:11px;height:11px;border-radius:50%;border:2px solid #fff;background:transparent;padding:0;cursor:pointer}
+.dot[aria-pressed="true"]{background:#fff}
+@media (max-width:860px){.slider{aspect-ratio:4/3}}
+@media (prefers-reduced-motion:reduce){.slider .slide{transition:none}}
+/* quote */
+.quote{background:var(--ink);color:#fff}
+.quote .eyebrow{color:#e0bb4a}
+.quote .lead{color:#c9c9cf}
+.quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+form{display:grid;gap:14px}
+label{font-weight:500;font-size:.98rem;display:grid;gap:6px}
+input,select,textarea{font:inherit;padding:12px 14px;border-radius:6px;border:1px solid #55585f;background:#35373c;color:#fff;width:100%}
+textarea{min-height:90px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.quote .btn{background:#e0bb4a;border-color:#e0bb4a;color:#22242a;justify-content:center}
+.quote .btn:hover{background:#edc95c}
+.quote .btn.ghost{background:transparent;color:#fff;border-color:#8b8e96}
+.note{font-size:.92rem;color:#b5b7bd}
+.contacts{display:grid;gap:0;margin-top:26px;border-top:1px solid #55585f}
+.contacts a,.contacts div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid #55585f;text-decoration:none;flex-wrap:wrap}
+.contacts span{color:#b5b7bd;font-family:var(--caps);letter-spacing:.16em;font-size:.9rem}
+.contacts b{font-size:1.15rem;font-variant-numeric:tabular-nums}
+footer{padding:44px 0;text-align:center}
+footer img{width:230px;margin:0 auto 14px}
+footer p{color:var(--soft);font-size:.95rem}
+@media (max-width:860px){
+  .hero-grid,.test-grid,.split,.quote-grid{grid-template-columns:1fr}
+  .products{grid-template-columns:1fr}
+  .product,.product + .product{padding:22px 0;border-left:0}
+  .navlinks{display:none}
+  section{padding:52px 0}
+  .test-grid video{max-width:420px;margin:0 auto}
+}
+@media (max-width:460px){.two{grid-template-columns:1fr}.brand span{font-size:.9rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="#home"><img src="img/mark.png" alt=""><span>Import Coconut<small>from Mozambique</small></span></a>
+    <nav>
+      <div class="navlinks"><a href="#home" data-i="nav.home">Home</a><a href="#opportunity" data-i="nav.opp" class="hl">Business opportunity</a><a href="#products" data-i="nav.products">Products</a></div>
+      <div class="lang" role="group" aria-label="Language"><button type="button" id="l-en" aria-pressed="true">EN</button><button type="button" id="l-pt" aria-pressed="false">PT</button></div>
+      <a class="btn sm" href="#quote" data-i="nav.quote">Get a quote</a>
+    </nav>
+  </div>
+<a class="oppbar" href="#opportunity" data-i="nav.opp">Business opportunity →</a>
+</header>
+
+<main id="top">
+<div id="view-home">
+<div class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <h1 data-i="hero.h1">Start your coconut business with coconuts from Mozambique.</h1>
+      <p class="lead" data-i="hero.lead">Coconut oil, coconut butter, desiccated coconut, coconut charcoal: they all start with a good coconut. We supply it, mature and brown, from Inhambane, to businesses anywhere in the world.</p>
+      <div class="cta"><a class="btn" href="#quote" data-i="hero.cta1">Request a quote</a><a class="btn ghost" href="#opportunity" data-i="hero.cta2">Business opportunity</a></div>
+    </div>
+    <div class="facts">
+      <div><b>60+</b><span data-i="f1">days of maturity, minimum</span></div>
+      <div><b>26 t</b><span data-i="f2">in one 40 ft container</span></div>
+      <div><b>25 · 50</b><span data-i="f3">coconuts per bag, or your own spec</span></div>
+      <div><b>24 h</b><span data-i="f4">to send you a quotation</span></div>
+    </div>
+  </div>
+  <figure class="hero-photo" style="margin-left:0;margin-right:0;margin-bottom:0">
+    <div class="slider" id="slider"><img src="img/n-palm.jpg" alt="A man climbing a coconut palm" class="slide on" style="object-position:50% 60%"><img src="img/n-mature.jpg" alt="A mature coconut split in two, showing thick white kernel" class="slide" style="object-position:50% 45%"><img src="img/n-open.jpg" alt="A germinating coconut, opened, held in a hand" class="slide" style="object-position:50% 50%"><img src="img/n-husk.jpg" alt="Coconut husks held in a hand" class="slide" style="object-position:50% 45%"><img src="img/n-leaves.jpg" alt="A pile of dried coconut palm leaves" class="slide" style="object-position:50% 40%"><img src="img/n-worker.jpg" alt="A worker carrying a crate of coconuts through a doorway" class="slide" style="object-position:50% 45%"><img src="img/n-crates.jpg" alt="Crates of coconuts on a steel table beside a scale" class="slide" style="object-position:50% 55%"><img src="img/n-bags.jpg" alt="Bags of coconuts stacked on pallets" class="slide" style="object-position:50% 50%"><img src="img/n-loading.jpg" alt="Workers loading bags onto a truck" class="slide" style="object-position:50% 50%"><img src="img/n-container.jpg" alt="Bags stacked inside a truck" class="slide" style="object-position:50% 45%"><img src="img/n-truck.jpg" alt="A box truck parked under trees at night" class="slide" style="object-position:40% 55%">
+      <button type="button" class="arrow prev" id="sl-prev" aria-label="Previous photo">‹</button>
+      <button type="button" class="arrow next" id="sl-next" aria-label="Next photo">›</button>
+      <div class="dots"><button type="button" class="dot" aria-label="Photo 1" aria-pressed="true"></button><button type="button" class="dot" aria-label="Photo 2" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 3" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 4" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 5" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 6" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 7" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 8" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 9" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 10" aria-pressed="false"></button><button type="button" class="dot" aria-label="Photo 11" aria-pressed="false"></button></div>
+    </div>
+    <figcaption class="cap" id="sl-cap" data-i="sl0">Harvesting coconuts from the palm.</figcaption>
+  </figure>
+</div>
+
+<section id="teaser" class="shell" style="margin-top:56px">
+  <div class="wrap">
+    <p class="eyebrow" data-i="op.eyebrow">Business opportunity</p>
+    <h2 data-i="tz.h2">Want to start a coconut business?</h2>
+    <p class="lead" style="margin-top:12px" data-i="tz.p">Coconut oil, coconut butter, desiccated coconut, coconut charcoal. See what you need for each one.</p>
+    <div class="thumbs"><a href="#opportunity" class="thumb"><img src="img/c-oil.jpg" alt="" width="960" height="640"><span data-i="b1.h">Virgin coconut oil</span></a><a href="#opportunity" class="thumb"><img src="img/c-butter.jpg" alt="" width="960" height="640"><span data-i="b2.h">Coconut butter</span></a><a href="#opportunity" class="thumb"><img src="img/c-desiccated.jpg" alt="" width="960" height="640"><span data-i="b3.h">Desiccated coconut</span></a><a href="#opportunity" class="thumb"><img src="img/c-charcoal.jpg" alt="" width="960" height="640"><span data-i="b4.h">Coconut charcoal</span></a></div>
+    <div class="cta"><a class="btn" href="#opportunity" data-i="tz.cta">Open business opportunity</a></div>
+  </div>
+</section>
+
+<section id="origin">
+  <div class="wrap split">
+    <figure style="margin:0"><img src="img/origin.jpg" alt="A freshly opened green coconut held up in a palm grove in Inhambane" width="1100" height="1371" class="tall"></figure>
+    <div>
+      <p class="eyebrow" data-i="o.eyebrow">Where it grows</p>
+      <h2 data-i="o.h2">Grown in Inhambane, on the Indian Ocean coast</h2>
+      <p class="lead" style="margin-top:14px" data-i="o.p1">Inhambane is Mozambique's coconut country: sandy soil, sea air and palms as far as you can see. This is where our coconuts come from.</p>
+      <p class="lead" style="margin-top:14px" data-i="o.p2">A coconut that is ready shows it: the colour turns brown. You can also tell by its sound. At the packing house the coconuts are sorted, weighed and bagged.</p>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="wrap">
+    <p class="eyebrow" data-i="p.eyebrow">What we supply</p>
+    <h2 data-i="p.h2">What we supply, in bulk</h2>
+    <div class="products">
+      <article class="product"><span class="no">01</span><h3 data-i="p1.h">Fresh semi-husked coconuts</h3><p data-i="p1.p">Mature brown coconuts from Inhambane, semi-husked for shipping.</p>
+        <dl><dt data-i="p1.a">Maturity</dt><dd data-i="p1.av">60 days minimum</dd><dt data-i="p1.b">Colour</dt><dd data-i="p1.bv">brown</dd><dt data-i="p1.c">Packing</dt><dd data-i="p1.cv">PP bags of 25 coconuts (13 kg) or 50 coconuts</dd><dt data-i="p1.d">Orders</dt><dd data-i="p1.dv">pallets to full containers</dd></dl></article>
+      <article class="product"><span class="no">02</span><h3 data-i="p2.h">Copra</h3><p data-i="p2.p">Dried coconut kernel in ball form, for oil pressing and food use.</p>
+        <dl><dt data-i="p2.a">Form</dt><dd data-i="p2.av">round, about 100 g a piece</dd><dt data-i="p2.c">Packing</dt><dd data-i="p2.cv">10 kg PP bags</dd><dt data-i="p2.d">Orders</dt><dd data-i="p2.dv">by the tonne or container</dd></dl></article>
+      <article class="product"><span class="no">03</span><h3 data-i="p3.h">Virgin coconut oil</h3><p data-i="p3.p">Pressed from Mozambican coconuts and supplied in bulk for food and cosmetic buyers.</p>
+        <dl><dt data-i="p3.c">Packing</dt><dd data-i="p3.cv">20 L containers</dd><dt data-i="p3.e">Documents</dt><dd data-i="p3.ev">certificate of analysis on request</dd><dt data-i="p3.d">Orders</dt><dd data-i="p3.dv">from 1 tonne</dd></dl></article>
+    </div>
+  </div>
+</section>
+
+<section id="packing" class="shell">
+  <div class="wrap">
+    <p class="eyebrow" data-i="g.eyebrow">Inside the packing house</p>
+    <h2 data-i="g.h2">From crate to truck</h2>
+    <div class="gallery">
+      <figure><img src="img/g1.jpg" alt="Crates of semi-husked coconuts arriving at the packing house" width="1000" height="750"><figcaption data-i="g1">Arrival and sorting</figcaption></figure>
+      <figure><img src="img/g2.jpg" alt="Two workers in aprons moving crates of coconuts in the packing room" width="1000" height="466"><figcaption data-i="g2">The packing room</figcaption></figure>
+      <figure><img src="img/g3.jpg" alt="Semi-husked coconuts beside a digital scale" width="1000" height="671"><figcaption data-i="g3">Ready for the scale</figcaption></figure>
+      <figure><img src="img/g4.jpg" alt="A coconut on a digital scale with hundreds of packed bags behind" width="1000" height="697"><figcaption data-i="g4">Weighed before bagging</figcaption></figure>
+      <figure><img src="img/g5.jpg" alt="A hand holding a ball of copra" width="1000" height="799"><figcaption data-i="g5">Copra, in ball form</figcaption></figure>
+      <figure><img src="img/g6.jpg" alt="Workers loading bags of coconuts into a truck at night" width="1000" height="799"><figcaption data-i="g6">Loading for dispatch</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="sound-test">
+  <div class="wrap test-grid">
+    <video controls playsinline preload="metadata" poster="img/poster.jpg" src="sound-test.mp4"></video>
+    <div>
+      <p class="eyebrow" data-i="k.eyebrow">Coconut know-how</p>
+      <h2 data-i="k.h2">How to tell a good coconut by ear</h2>
+      <p class="lead" style="margin-top:14px" data-i="k.lead">You cannot see inside a coconut, but you can hear it. Knock two coconuts together and listen. We made this short video to share a piece of knowledge every coconut buyer should have.</p>
+      <div class="verdicts">
+        <div class="verdict"><span class="pill" data-i="k.pill1">APPROVED</span><p data-i="k.ok">A clear, solid sound: it is a good coconut.</p></div>
+        <div class="verdict no"><span class="pill" data-i="k.pill2">REJECTED</span><p data-i="k.no">A dull or different sound: it is not a good coconut.</p></div>
+      </div>
+      <p class="cap" style="margin-top:18px" data-i="k.cap">Our selection standard is maturity and colour: at least 60 days, brown.</p>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="shell">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow" data-i="h.eyebrow">How we work</p>
+      <h2 data-i="h.h2">From the palm to your port</h2>
+      <ol class="steps">
+        <li><div><b data-i="s1.b">Tell us what you need</b><span data-i="s1.s">Product, quantity and destination. We reply with a quotation within 24 hours.</span></div></li>
+        <li><div><b data-i="s2.b">Selection</b><span data-i="s2.s">We choose coconuts that are ready: at least 60 days of maturity, brown colour.</span></div></li>
+        <li><div><b data-i="s3.b">Sorting and packing</b><span data-i="s3.s">The coconuts are weighed, bagged and palletised to your specification.</span></div></li>
+        <li><div><b data-i="s4.b">Loading and documents</b><span data-i="s4.s">We load by pallet or container and prepare the export documents for your shipment.</span></div></li>
+      </ol>
+    </div>
+    <figure style="margin:0">
+      <img src="img/bags.jpg" alt="A large room filled with hundreds of tied white bags of fresh coconuts" width="1400" height="902">
+      <figcaption class="cap" data-i="h.cap">Bags packed and tied, ready for loading.</figcaption>
+    </figure>
+  </div>
+</section>
+
+</div>
+
+<div id="view-opp" hidden>
+<section style="padding-bottom:28px">
+  <div class="wrap">
+    <p class="eyebrow" data-i="op.eyebrow">Business opportunity</p>
+    <h1 data-i="op.h1">Four businesses you can start with our coconuts</h1>
+    <p class="lead" style="margin-top:18px" data-i="op.lead">Whether you run a company or want to start small at home, a coconut business begins with a good coconut. Here is what each business needs, and why Mozambican coconut is the right raw material.</p>
+  </div>
+</section>
+<section class="shell" style="padding-top:44px">
+  <div class="wrap cats"><article class="cat"><img src="img/c-oil.jpg" alt="A glass jar of coconut oil beside a halved coconut" width="960" height="640"><div><span class="no">01</span><h3 data-i="b1.h">Virgin coconut oil</h3><p class="lead" data-i="b1.p">Press the dried kernel and bottle the oil for cooking, skin and hair.</p><dl><dt data-i="b.need">You need</dt><dd data-i="b1.n">Grater, dryer, oil press, filter, bottles</dd><dt data-i="op.steps">How it is made</dt><dd data-i="b1.t">Open the coconuts, grate the kernel, dry it at low heat, press it, let the oil settle, filter and bottle.</dd></dl></div></article><article class="cat"><img src="img/c-butter.jpg" alt="A coconut-shell bowl of coconut butter with a wooden spoon" width="960" height="640"><div><span class="no">02</span><h3 data-i="b2.h">Coconut butter</h3><p class="lead" data-i="b2.p">Grind dried coconut into a smooth spread.</p><dl><dt data-i="b.need">You need</dt><dd data-i="b2.n">Dryer, grinder, jars</dd><dt data-i="op.steps">How it is made</dt><dd data-i="b2.t">Dry the grated kernel, then grind it until it turns into a smooth, creamy paste. Fill the jars while it is still soft.</dd></dl></div></article><article class="cat"><img src="img/c-desiccated.jpg" alt="A heap of white desiccated coconut" width="960" height="640"><div><span class="no">03</span><h3 data-i="b3.h">Desiccated coconut</h3><p class="lead" data-i="b3.p">Grate, dry and pack the kernel for bakeries and food makers.</p><dl><dt data-i="b.need">You need</dt><dd data-i="b3.n">Grater, dryer, sieve, bag sealer</dd><dt data-i="op.steps">How it is made</dt><dd data-i="b3.t">Remove the brown skin, grate the white kernel, dry it until crisp, sieve it by size and seal it in bags.</dd></dl></div></article><article class="cat"><img src="img/c-charcoal.jpg" alt="A pile of coconut shell charcoal" width="960" height="640"><div><span class="no">04</span><h3 data-i="b4.h">Coconut charcoal</h3><p class="lead" data-i="b4.p">Turn the empty shells into charcoal for grills and briquettes.</p><dl><dt data-i="b.need">You need</dt><dd data-i="b4.n">Drum kiln, crusher, bags</dd><dt data-i="op.steps">How it is made</dt><dd data-i="b4.t">Dry the empty shells, burn them slowly in a closed drum with little air, let them cool, then crush and bag.</dd></dl></div></article>
+    <p class="lead" data-i="b.note">One coconut, several products: the kernel for oil, butter or desiccated coconut, and the shell for charcoal.</p>
+  </div>
+</section>
+<section id="garage">
+  <div class="wrap">
+    <p class="eyebrow" data-i="gg.eyebrow">Garage guide</p>
+    <h2 data-i="gg.h2">What you need to make virgin coconut oil in your garage</h2>
+    <p class="lead" style="margin-top:14px" data-i="gg.lead">A small oil business fits in a garage. This is the basic setup; sizes and brands depend on your budget.</p>
+    <div class="garage">
+      <div><h3 data-i="gg.eq">Equipment</h3><ul class="check"><li data-i="e1">A clean table and a tool to crack the coconuts</li><li data-i="e2">An electric coconut grater</li><li data-i="e3">A tray dryer or low-heat oven</li><li data-i="e4">A small screw oil press</li><li data-i="e5">Food-grade buckets and filter cloth</li><li data-i="e6">Glass bottles or jars, labels and a scale</li><li data-i="e7">Clean water and good hygiene</li></ul></div>
+      <div><h3 data-i="gg.st">The process</h3><ol class="num"><li data-i="t1">Open the coconuts and remove the kernel.</li><li data-i="t2">Grate the kernel.</li><li data-i="t3">Dry it at low heat until crisp.</li><li data-i="t4">Press it to extract the oil.</li><li data-i="t5">Let the oil settle, then filter it.</li><li data-i="t6">Bottle, label and sell.</li></ol></div>
+    </div>
+    <div class="yield"><p data-i="gg.yield">As a rough guide, 12 to 15 mature coconuts give about 1 litre of oil, depending on size and method.</p><p class="cap" data-i="gg.rule">Check the food-safety rules in your country before you sell.</p></div>
+    <div class="cta"><a class="btn" href="#quote" data-i="gg.cta">Ask us for coconuts for your first batch</a></div>
+  </div>
+</section>
+
+<section id="why" class="shell">
+  <div class="wrap">
+    <p class="eyebrow" data-i="w.eyebrow">Why us</p>
+    <h2 data-i="w.h2">Why buy your coconuts from us</h2>
+    <div class="whys"><div class="why"><b data-i="w1.b">Mature coconuts, more oil</b><span data-i="w1.s">We sell brown coconuts with at least 60 days of maturity. A mature kernel is thicker and richer in oil than a young one.</span></div><div class="why"><b data-i="w2.b">From Mozambique's coconut coast</b><span data-i="w2.s">Mozambican coconut is one of the best in the world, grown in the sandy soil of Inhambane by the Indian Ocean.</span></div><div class="why"><b data-i="w3.b">We know a ready coconut</b><span data-i="w3.s">We can tell a coconut is ready by its brown colour, and by its sound.</span></div><div class="why"><b data-i="w4.b">Any volume</b><span data-i="w4.s">From a few pallets to full 40 ft containers of about 26 tonnes.</span></div><div class="why"><b data-i="w5.b">Packed for the journey</b><span data-i="w5.s">Bags of 25 or 50 coconuts, or packed to your specification, with the export documents.</span></div><div class="why"><b data-i="w6.b">You deal with us directly</b><span data-i="w6.s">Tell us what you want to make. We reply with a quotation within 24 hours.</span></div></div>
+  </div>
+</section>
+
+
+<section style="padding:48px 0"><div class="wrap" style="text-align:center"><a class="btn" href="#quote" data-i="op.cta">Tell us what you want to make</a></div></section>
+</div>
+
+<section id="quote" class="quote">
+  <div class="wrap quote-grid">
+    <div>
+      <p class="eyebrow" data-i="q.eyebrow">Contact us and place your order</p>
+      <h2 data-i="q.h2">Request a quote</h2>
+      <p class="lead" style="margin-top:14px" data-i="q.lead">Fill in the form and send it to us on WhatsApp, or contact us directly.</p>
+      <div class="contacts">
+        <a href="https://wa.me/258842144651" target="_blank" rel="noopener"><span>whatsapp</span><b>+258 84 214 4651</b></a>
+        <a href="tel:+258872144651"><span data-i="c.phone">phone</span><b>+258 87 214 4651</b></a>
+        <a href="mailto:impcocomz@gmail.com"><span>email</span><b>impcocomz@gmail.com</b></a>
+        <a href="https://www.facebook.com/share/1A3qnvskVF/" target="_blank" rel="noopener"><span>facebook</span><b>Import Coconut From Mozambique</b></a>
+      </div>
+    </div>
+    <form id="qf">
+      <div class="two">
+        <label for="q-name"><span data-i="l.name">Your name</span><input id="q-name" autocomplete="name"></label>
+        <label for="q-company"><span data-i="l.company">Company</span><input id="q-company" autocomplete="organization"></label>
+      </div>
+      <label for="q-product"><span data-i="l.product">Product</span>
+        <select id="q-product"><option value="p1.h" data-i="p1.h">Fresh semi-husked coconuts</option><option value="p2.h" data-i="p2.h">Copra</option><option value="p3.h" data-i="p3.h">Virgin coconut oil</option></select>
+      </label>
+      <div class="two">
+        <label for="q-qty"><span data-i="l.qty">Quantity</span><input id="q-qty" placeholder="1 × 40 ft"></label>
+        <label for="q-dest"><span data-i="l.dest">Destination</span><input id="q-dest"></label>
+      </div>
+      <label for="q-notes"><span data-i="l.notes">Anything else</span><textarea id="q-notes"></textarea></label>
+      <a class="btn" id="q-wa" href="https://wa.me/258842144651" target="_blank" rel="noopener" data-i="q.wa">Send on WhatsApp</a>
+      <button class="btn ghost" type="button" id="q-copy" data-i="q.copy">Copy message for email</button>
+      <p class="note" id="q-status" aria-live="polite" data-i="q.note">The WhatsApp button opens a chat with your message already written.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="img/logo.png" alt="Import Coconut From Mozambique">
+    <p data-i="foot">Fresh coconuts, copra and virgin coconut oil from Mozambique.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var EN={"nav.know": "The sound test", "nav.origin": "Origin", "nav.products": "Products", "nav.how": "How we work", "nav.quote": "Get a quote", "brand.sub": "from Mozambique", "hero.h1": "Start your coconut business with coconuts from Mozambique.", "hero.lead": "Coconut oil, coconut butter, desiccated coconut, coconut charcoal: they all start with a good coconut. We supply it, mature and brown, from Inhambane, to businesses anywhere in the world.", "hero.cta1": "Request a quote", "hero.cta2": "Business opportunity", "f1": "days of maturity, minimum", "f2": "in one 40 ft container", "f3": "coconuts per bag, or your own spec", "f4": "to send you a quotation", "hero.cap": "Inhambane, Mozambique: the coconut groves where our supply comes from.", "k.eyebrow": "Coconut know-how", "k.h2": "How to tell a good coconut by ear", "k.lead": "You cannot see inside a coconut, but you can hear it. Knock two coconuts together and listen. We made this short video to share a piece of knowledge every coconut buyer should have.", "k.ok": "A clear, solid sound: it is a good coconut.", "k.no": "A dull or different sound: it is not a good coconut.", "k.pill1": "APPROVED", "k.pill2": "REJECTED", "k.cap": "Our selection standard is maturity and colour: at least 60 days, brown.", "o.eyebrow": "Where it grows", "o.h2": "Grown in Inhambane, on the Indian Ocean coast", "o.p1": "Inhambane is Mozambique's coconut country: sandy soil, sea air and palms as far as you can see. This is where our coconuts come from.", "o.p2": "A coconut that is ready shows it: the colour turns brown. You can also tell by its sound. At the packing house the coconuts are sorted, weighed and bagged.", "g.eyebrow": "Inside the packing house", "g.h2": "From crate to truck", "g1": "Arrival and sorting", "g2": "The packing room", "g3": "Ready for the scale", "g4": "Weighed before bagging", "g5": "Copra, in ball form", "g6": "Loading for dispatch", "p.eyebrow": "What we supply", "p.h2": "What we supply, in bulk", "p1.h": "Fresh semi-husked coconuts", "p1.p": "Mature brown coconuts from Inhambane, semi-husked for shipping.", "p1.a": "Maturity", "p1.av": "60 days minimum", "p1.b": "Colour", "p1.bv": "brown", "p1.c": "Packing", "p1.cv": "PP bags of 25 coconuts (13 kg) or 50 coconuts", "p1.d": "Orders", "p1.dv": "pallets to full containers", "p2.h": "Copra", "p2.p": "Dried coconut kernel in ball form, for oil pressing and food use.", "p2.a": "Form", "p2.av": "round, about 100 g a piece", "p2.c": "Packing", "p2.cv": "10 kg PP bags", "p2.d": "Orders", "p2.dv": "by the tonne or container", "p3.h": "Virgin coconut oil", "p3.p": "Pressed from Mozambican coconuts and supplied in bulk for food and cosmetic buyers.", "p3.c": "Packing", "p3.cv": "20 L containers", "p3.e": "Documents", "p3.ev": "certificate of analysis on request", "p3.d": "Orders", "p3.dv": "from 1 tonne", "h.eyebrow": "How we work", "h.h2": "From the palm to your port", "s1.b": "Tell us what you need", "s1.s": "Product, quantity and destination. We reply with a quotation within 24 hours.", "s2.b": "Selection", "s2.s": "We choose coconuts that are ready: at least 60 days of maturity, brown colour.", "s3.b": "Sorting and packing", "s3.s": "The coconuts are weighed, bagged and palletised to your specification.", "s4.b": "Loading and documents", "s4.s": "We load by pallet or container and prepare the export documents for your shipment.", "h.cap": "Bags packed and tied, ready for loading.", "q.eyebrow": "Contact us and place your order", "q.h2": "Request a quote", "q.lead": "Fill in the form and send it to us on WhatsApp, or contact us directly.", "c.phone": "phone", "l.name": "Your name", "l.company": "Company", "l.product": "Product", "l.qty": "Quantity", "l.dest": "Destination", "l.notes": "Anything else", "q.wa": "Send on WhatsApp", "q.copy": "Copy message for email", "q.note": "The WhatsApp button opens a chat with your message already written.", "foot": "Fresh coconuts, copra and virgin coconut oil from Mozambique.", "nav.ideas": "Business ideas", "nav.garage": "Garage guide", "nav.why": "Why us", "b.eyebrow": "Business ideas", "b.h2": "Four businesses that start with one coconut", "b1.h": "Virgin coconut oil", "b1.p": "Press the dried kernel and bottle the oil for cooking, skin and hair.", "b1.n": "Grater, dryer, oil press, filter, bottles", "b2.h": "Coconut butter", "b2.p": "Grind dried coconut into a smooth spread.", "b2.n": "Dryer, grinder, jars", "b3.h": "Desiccated coconut", "b3.p": "Grate, dry and pack the kernel for bakeries and food makers.", "b3.n": "Grater, dryer, sieve, bag sealer", "b4.h": "Coconut charcoal", "b4.p": "Turn the empty shells into charcoal for grills and briquettes.", "b4.n": "Drum kiln, crusher, bags", "b.need": "You need", "b.note": "One coconut, several products: the kernel for oil, butter or desiccated coconut, and the shell for charcoal.", "gg.eyebrow": "Garage guide", "gg.h2": "What you need to make virgin coconut oil in your garage", "gg.lead": "A small oil business fits in a garage. This is the basic setup; sizes and brands depend on your budget.", "gg.eq": "Equipment", "gg.st": "The process", "e1": "A clean table and a tool to crack the coconuts", "e2": "An electric coconut grater", "e3": "A tray dryer or low-heat oven", "e4": "A small screw oil press", "e5": "Food-grade buckets and filter cloth", "e6": "Glass bottles or jars, labels and a scale", "e7": "Clean water and good hygiene", "t1": "Open the coconuts and remove the kernel.", "t2": "Grate the kernel.", "t3": "Dry it at low heat until crisp.", "t4": "Press it to extract the oil.", "t5": "Let the oil settle, then filter it.", "t6": "Bottle, label and sell.", "gg.yield": "As a rough guide, 12 to 15 mature coconuts give about 1 litre of oil, depending on size and method.", "gg.rule": "Check the food-safety rules in your country before you sell.", "gg.cta": "Ask us for coconuts for your first batch", "w.eyebrow": "Why us", "w.h2": "Why buy your coconuts from us", "w1.b": "Mature coconuts, more oil", "w1.s": "We sell brown coconuts with at least 60 days of maturity. A mature kernel is thicker and richer in oil than a young one.", "w2.b": "From Mozambique's coconut coast", "w2.s": "Mozambican coconut is one of the best in the world, grown in the sandy soil of Inhambane by the Indian Ocean.", "w3.b": "We know a ready coconut", "w3.s": "We can tell a coconut is ready by its brown colour, and by its sound.", "w4.b": "Any volume", "w4.s": "From a few pallets to full 40 ft containers of about 26 tonnes.", "w5.b": "Packed for the journey", "w5.s": "Bags of 25 or 50 coconuts, or packed to your specification, with the export documents.", "w6.b": "You deal with us directly", "w6.s": "Tell us what you want to make. We reply with a quotation within 24 hours.", "nav.home": "Home", "nav.opp": "Business opportunity", "op.eyebrow": "Business opportunity", "op.h1": "Four businesses you can start with our coconuts", "op.lead": "Whether you run a company or want to start small at home, a coconut business begins with a good coconut. Here is what each business needs, and why Mozambican coconut is the right raw material.", "op.steps": "How it is made", "b1.t": "Open the coconuts, grate the kernel, dry it at low heat, press it, let the oil settle, filter and bottle.", "b2.t": "Dry the grated kernel, then grind it until it turns into a smooth, creamy paste. Fill the jars while it is still soft.", "b3.t": "Remove the brown skin, grate the white kernel, dry it until crisp, sieve it by size and seal it in bags.", "b4.t": "Dry the empty shells, burn them slowly in a closed drum with little air, let them cool, then crush and bag.", "tz.h2": "Want to start a coconut business?", "tz.p": "Coconut oil, coconut butter, desiccated coconut, coconut charcoal. See what you need for each one.", "tz.cta": "Open business opportunity", "op.cta": "Tell us what you want to make", "sl0": "Harvesting coconuts from the palm.", "sl1": "A mature coconut, opened: thick white kernel.", "sl2": "A germinating coconut: this is how a new palm begins inside.", "sl3": "Coconut husk.", "sl4": "Dried coconut palm leaves.", "sl5": "Crates of coconuts coming in.", "sl6": "Coconuts in crates, ready for the scale.", "sl7": "Bagged and stacked on pallets.", "sl8": "Loading the bags for transport.", "sl9": "Stacked inside the truck.", "sl10": "The truck at the packing house."};
+  var PT={"nav.know": "O teste do som", "nav.origin": "Origem", "nav.products": "Produtos", "nav.how": "Como trabalhamos", "nav.quote": "Pedir cotação", "brand.sub": "from Mozambique", "hero.h1": "Comece o seu negócio de coco com coco de Moçambique.", "hero.lead": "Óleo de coco, manteiga de coco, coco ralado, carvão de coco: tudo começa com um bom coco. Nós fornecemos, maduro e castanho, de Inhambane, para negócios em qualquer parte do mundo.", "hero.cta1": "Pedir cotação", "hero.cta2": "Oportunidade de negócio", "f1": "dias de maturação, no mínimo", "f2": "num contentor de 40 pés", "f3": "cocos por saco, ou à sua medida", "f4": "para lhe enviar a cotação", "hero.cap": "Inhambane, Moçambique: os palmares de onde vem o nosso coco.", "k.eyebrow": "Conhecer o coco", "k.h2": "Como reconhecer um bom coco pelo som", "k.lead": "Não se vê o interior de um coco, mas pode-se ouvir. Bata dois cocos um no outro e escute. Fizemos este vídeo curto para partilhar um conhecimento que todo o comprador de coco deve ter.", "k.ok": "Som limpo e firme: é um bom coco.", "k.no": "Som abafado ou diferente: não é um bom coco.", "k.pill1": "APROVADO", "k.pill2": "REJEITADO", "k.cap": "A nossa norma de seleção é a maturação e a cor: mínimo de 60 dias, castanho.", "o.eyebrow": "Onde cresce", "o.h2": "Cultivado em Inhambane, na costa do Índico", "o.p1": "Inhambane é a terra do coco em Moçambique: solo arenoso, ar do mar e palmeiras a perder de vista. É daqui que vem o nosso coco.", "o.p2": "Um coco pronto mostra-o: a cor fica castanha. Também se percebe pelo som. Na casa de embalagem, os cocos são selecionados, pesados e ensacados.", "g.eyebrow": "Dentro da casa de embalagem", "g.h2": "Da caixa ao camião", "g1": "Chegada e seleção", "g2": "A sala de embalagem", "g3": "Prontos para a balança", "g4": "Pesados antes de ensacar", "g5": "Copra, em bola", "g6": "Carregamento para expedição", "p.eyebrow": "O que fornecemos", "p.h2": "O que fornecemos, a granel", "p1.h": "Coco fresco semi-descascado", "p1.p": "Coco castanho maduro de Inhambane, semi-descascado para transporte.", "p1.a": "Maturação", "p1.av": "mínimo de 60 dias", "p1.b": "Cor", "p1.bv": "castanha", "p1.c": "Embalagem", "p1.cv": "sacos PP de 25 cocos (13 kg) ou de 50 cocos", "p1.d": "Encomendas", "p1.dv": "de paletes a contentores completos", "p2.h": "Copra", "p2.p": "Polpa de coco seca, em bola, para extração de óleo e uso alimentar.", "p2.a": "Forma", "p2.av": "redonda, cerca de 100 g por peça", "p2.c": "Embalagem", "p2.cv": "sacos PP de 10 kg", "p2.d": "Encomendas", "p2.dv": "à tonelada ou ao contentor", "p3.h": "Óleo de coco virgem", "p3.p": "Extraído de coco moçambicano e fornecido a granel para a indústria alimentar e cosmética.", "p3.c": "Embalagem", "p3.cv": "recipientes de 20 L", "p3.e": "Documentos", "p3.ev": "certificado de análise a pedido", "p3.d": "Encomendas", "p3.dv": "a partir de 1 tonelada", "h.eyebrow": "Como trabalhamos", "h.h2": "Da palmeira ao seu porto", "s1.b": "Diga-nos o que precisa", "s1.s": "Produto, quantidade e destino. Respondemos com uma cotação em 24 horas.", "s2.b": "Seleção", "s2.s": "Escolhemos cocos que estão prontos: mínimo de 60 dias de maturação, cor castanha.", "s3.b": "Seleção e embalagem", "s3.s": "Os cocos são pesados, ensacados e paletizados conforme a sua especificação.", "s4.b": "Carregamento e documentos", "s4.s": "Carregamos por palete ou contentor e preparamos os documentos de exportação da sua carga.", "h.cap": "Sacos cheios e atados, prontos para carregar.", "q.eyebrow": "Contacte-nos e faça a sua encomenda", "q.h2": "Pedir cotação", "q.lead": "Preencha o formulário e envie-nos pelo WhatsApp, ou contacte-nos diretamente.", "c.phone": "telefone", "l.name": "O seu nome", "l.company": "Empresa", "l.product": "Produto", "l.qty": "Quantidade", "l.dest": "Destino", "l.notes": "Mais alguma coisa", "q.wa": "Enviar pelo WhatsApp", "q.copy": "Copiar mensagem para e-mail", "q.note": "O botão do WhatsApp abre uma conversa com a sua mensagem já escrita.", "foot": "Coco fresco, copra e óleo de coco virgem de Moçambique.", "nav.ideas": "Ideias de negócio", "nav.garage": "Guia de garagem", "nav.why": "Porquê nós", "b.eyebrow": "Ideias de negócio", "b.h2": "Quatro negócios que começam num coco", "b1.h": "Óleo de coco virgem", "b1.p": "Prense a polpa seca e engarrafe o óleo para cozinha, pele e cabelo.", "b1.n": "Ralador, secador, prensa de óleo, filtro, garrafas", "b2.h": "Manteiga de coco", "b2.p": "Moa o coco seco até obter um creme macio.", "b2.n": "Secador, moinho, frascos", "b3.h": "Coco ralado seco", "b3.p": "Rale, seque e embale a polpa para pastelarias e indústria alimentar.", "b3.n": "Ralador, secador, peneira, seladora de sacos", "b4.h": "Carvão de coco", "b4.p": "Transforme as cascas vazias em carvão para grelhadores e briquetes.", "b4.n": "Forno de tambor, triturador, sacos", "b.need": "Precisa de", "b.note": "Um coco, vários produtos: a polpa para óleo, manteiga ou coco ralado, e a casca para carvão.", "gg.eyebrow": "Guia de garagem", "gg.h2": "O que precisa para fazer óleo de coco virgem na sua garagem", "gg.lead": "Um pequeno negócio de óleo cabe numa garagem. Este é o equipamento básico; tamanhos e marcas dependem do seu orçamento.", "gg.eq": "Equipamento", "gg.st": "O processo", "e1": "Uma mesa limpa e uma ferramenta para abrir os cocos", "e2": "Um ralador de coco elétrico", "e3": "Um secador de tabuleiros ou forno a baixa temperatura", "e4": "Uma pequena prensa de óleo de parafuso", "e5": "Baldes alimentares e pano de filtrar", "e6": "Garrafas ou frascos de vidro, rótulos e balança", "e7": "Água limpa e boa higiene", "t1": "Abra os cocos e retire a polpa.", "t2": "Rale a polpa.", "t3": "Seque a baixa temperatura até ficar estaladiça.", "t4": "Prense para extrair o óleo.", "t5": "Deixe o óleo assentar e depois filtre.", "t6": "Engarrafe, rotule e venda.", "gg.yield": "Como referência, 12 a 15 cocos maduros dão cerca de 1 litro de óleo, conforme o tamanho e o método.", "gg.rule": "Verifique as regras de segurança alimentar do seu país antes de vender.", "gg.cta": "Peça-nos coco para o seu primeiro lote", "w.eyebrow": "Porquê nós", "w.h2": "Porquê comprar o seu coco connosco", "w1.b": "Coco maduro, mais óleo", "w1.s": "Vendemos coco castanho com um mínimo de 60 dias de maturação. A polpa madura é mais grossa e mais rica em óleo do que a de um coco novo.", "w2.b": "Da costa do coco de Moçambique", "w2.s": "O coco de Moçambique é um dos melhores do mundo, cultivado no solo arenoso de Inhambane, junto ao Índico.", "w3.b": "Conhecemos um coco pronto", "w3.s": "Sabemos que um coco está pronto pela cor castanha e pelo som.", "w4.b": "Qualquer volume", "w4.s": "De algumas paletes a contentores completos de 40 pés, com cerca de 26 toneladas.", "w5.b": "Embalado para a viagem", "w5.s": "Sacos de 25 ou de 50 cocos, ou à sua especificação, com os documentos de exportação.", "w6.b": "Fala diretamente connosco", "w6.s": "Diga-nos o que quer produzir. Respondemos com uma cotação em 24 horas.", "nav.home": "Início", "nav.opp": "Oportunidade de negócio", "op.eyebrow": "Oportunidade de negócio", "op.h1": "Quatro negócios que pode começar com o nosso coco", "op.lead": "Quer tenha uma empresa, quer queira começar pequeno em casa, um negócio de coco começa com um bom coco. Veja o que cada negócio precisa e porque o coco de Moçambique é a matéria-prima certa.", "op.steps": "Como se faz", "b1.t": "Abra os cocos, rale a polpa, seque a baixa temperatura, prense, deixe o óleo assentar, filtre e engarrafe.", "b2.t": "Seque a polpa ralada e moa até se tornar uma pasta macia e cremosa. Encha os frascos enquanto está mole.", "b3.t": "Retire a pele castanha, rale a polpa branca, seque até ficar estaladiça, peneire por tamanho e sele em sacos.", "b4.t": "Seque as cascas vazias, queime-as lentamente num tambor fechado com pouco ar, deixe arrefecer, triture e ensaque.", "tz.h2": "Quer começar um negócio de coco?", "tz.p": "Óleo de coco, manteiga de coco, coco ralado, carvão de coco. Veja o que precisa para cada um.", "tz.cta": "Abrir oportunidade de negócio", "op.cta": "Diga-nos o que quer produzir", "sl0": "Colheita do coco na palmeira.", "sl1": "Um coco maduro, aberto: polpa branca e grossa.", "sl2": "Um coco em germinação: é assim que um novo coqueiro começa por dentro.", "sl3": "Casca de coco.", "sl4": "Folhas secas de coqueiro.", "sl5": "Entrada das caixas de coco.", "sl6": "Cocos em caixas, prontos para a balança.", "sl7": "Ensacados e empilhados em paletes.", "sl8": "Carregamento dos sacos para transporte.", "sl9": "Empilhados dentro do camião.", "sl10": "O camião na casa de embalagem."};
+  var M={en:{hi:'Hello, I would like a quote.',p:'Product',q:'Quantity',d:'Destination',f:'From',n:'Notes',ok:'Message copied. Paste it into an email to impcocomz@gmail.com.',ko:'Could not copy. Please write to impcocomz@gmail.com.'},
+         pt:{hi:'Olá, gostaria de pedir uma cotação.',p:'Produto',q:'Quantidade',d:'Destino',f:'De',n:'Notas',ok:'Mensagem copiada. Cole-a num e-mail para impcocomz@gmail.com.',ko:'Não foi possível copiar. Escreva para impcocomz@gmail.com.'}};
+  var lang='en';
+  function v(id){return document.getElementById(id).value.trim();}
+  function msg(){
+    var m=M[lang], D=lang==='pt'?PT:EN, l=[m.hi,m.p+': '+D[v('q-product')]];
+    if(v('q-qty')) l.push(m.q+': '+v('q-qty'));
+    if(v('q-dest')) l.push(m.d+': '+v('q-dest'));
+    if(v('q-name')||v('q-company')) l.push(m.f+': '+[v('q-name'),v('q-company')].filter(Boolean).join(', '));
+    if(v('q-notes')) l.push(m.n+': '+v('q-notes'));
+    return l.join('\n');
+  }
+  var wa=document.getElementById('q-wa'), st=document.getElementById('q-status');
+  function sync(){wa.href='https://wa.me/258842144651?text='+encodeURIComponent(msg());}
+  function setLang(l){
+    lang=l; var D=l==='pt'?PT:EN;
+    document.querySelectorAll('[data-i]').forEach(function(e){var k=e.getAttribute('data-i'); if(D[k]!=null) e.textContent=D[k];});
+    document.documentElement.lang=l;
+    document.getElementById('l-en').setAttribute('aria-pressed',l==='en'); document.getElementById('l-pt').setAttribute('aria-pressed',l==='pt');
+    try{localStorage.setItem('icm-lang',l);}catch(e){}
+    sync();
+  }
+  document.getElementById('l-en').addEventListener('click',function(){setLang('en');});
+  document.getElementById('l-pt').addEventListener('click',function(){setLang('pt');});
+  var f=document.getElementById('qf'); f.addEventListener('input',sync); f.addEventListener('submit',function(e){e.preventDefault();});
+  document.getElementById('q-copy').addEventListener('click',function(){
+    var done=function(){st.textContent=M[lang].ok;}, fail=function(){st.textContent=M[lang].ko;};
+    try{navigator.clipboard.writeText(msg()).then(done,fail);}catch(e){fail();}
+  });
+  (function(){
+    var sl=document.getElementById('slider'), im=sl.querySelectorAll('.slide'), dt=sl.querySelectorAll('.dot'), cap=document.getElementById('sl-cap'), i=0, tm=null;
+    function go(n){ i=(n+im.length)%im.length;
+      im.forEach(function(e,k){e.classList.toggle('on',k===i);}); dt.forEach(function(e,k){e.setAttribute('aria-pressed',k===i);});
+      var k='sl'+i; cap.setAttribute('data-i',k); cap.textContent=(lang==='pt'?PT:EN)[k]; }
+    function start(){ stop(); if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; tm=setInterval(function(){go(i+1);},4500); }
+    function stop(){ if(tm) clearInterval(tm); tm=null; }
+    document.getElementById('sl-prev').addEventListener('click',function(){go(i-1);start();});
+    document.getElementById('sl-next').addEventListener('click',function(){go(i+1);start();});
+    dt.forEach(function(e,k){e.addEventListener('click',function(){go(k);start();});});
+    sl.addEventListener('mouseenter',stop); sl.addEventListener('mouseleave',start); start();
+  })();
+  function route(){
+    var h=(location.hash||'').replace('#',''), opp=document.getElementById('view-opp'), home=document.getElementById('view-home');
+    if(h==='quote'){var q=document.getElementById('quote'); if(q) q.scrollIntoView(); return;}
+    var inOpp=(h==='opportunity'||h==='garage'||h==='why');
+    opp.hidden=!inOpp; home.hidden=inOpp;
+    var el=(h&&h!=='opportunity'&&h!=='home')?document.getElementById(h):null;
+    if(el) el.scrollIntoView(); else window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange',route); route();
+  var saved=null; try{saved=localStorage.getItem('icm-lang');}catch(e){}
+  setLang(saved||((navigator.language||'en').toLowerCase().indexOf('pt')===0?'pt':'en'));
+})();
+</script>
+</body>
+</html>
